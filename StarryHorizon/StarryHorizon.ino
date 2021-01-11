@@ -6,7 +6,7 @@
 #include <Fonts/FreeSansBold9pt7b.h> //include any fonts you want to use
 #include "MadeSunflower39pt7b.h"
 
-#define STAR_COUNT 1700
+#define STAR_COUNT 1300
 
 const int horizonY = 145;
 const int starCount = 150;
@@ -34,7 +34,7 @@ void initStars() {
     int radius = rand() % 2;
     if(i == 0) { printf("init %d %d\n", starX, starY); }
 
-    if (i > STAR_COUNT * 0.98) radius = 2;
+    if (i > STAR_COUNT * 0.99) radius = 2;
     else if (i > STAR_COUNT * 0.80) radius = 1;
     else radius = 0;
     stars[i] = { starX, starY, radius };
