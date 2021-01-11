@@ -1,3 +1,7 @@
+// STARRY HORIZON for Watchy by SQFMI
+// Copyright 2021 Dan Delany dan.delany@gmail.com
+// Released under free MIT License : https://github.com/dandelany/watchy-faces/blob/main/LICENSE
+
 #include <Watchy.h> //include the Watchy library
 #include <Fonts/FreeSansBold9pt7b.h> //include any fonts you want to use
 #include "MadeSunflower39pt7b.h"
